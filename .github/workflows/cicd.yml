@@ -82,7 +82,6 @@ jobs:
     - name: Build Project
       run: mvn package
 
-    - name : SonarQube checks   
     - uses: actions/checkout@v4
       with:
         # Disabling shallow clones is recommended for improving the relevancy of reporting
