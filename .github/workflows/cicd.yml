@@ -70,6 +70,7 @@ jobs:
 # SonarQube analysis 
   build_project_and_sonar_scan:
     runs-on: self-runner
+    needs : test
     steps:
     - name: Checking out Github code
       uses: actions/checkout@v4
