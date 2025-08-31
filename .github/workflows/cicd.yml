@@ -140,5 +140,5 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: chirag/bankapp:latest
+        tags: chiragmaini04/first-docker
       
