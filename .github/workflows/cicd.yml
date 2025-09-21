@@ -7,7 +7,7 @@ on:
 
 jobs:
 
-# Build job
+# Build job 
   build:
     runs-on: self-runner
     steps:
@@ -23,7 +23,7 @@ jobs:
       run: mvn compile
 
 
-# Secuirty Check
+# Secuirty Check Stage
   security-check:
     runs-on: self-runner 
     needs: build
